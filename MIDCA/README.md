@@ -4,8 +4,9 @@
 
 https://github.com/COLAB2/midca
 
+---
 
-MIDCA Initialization 
+## MIDCA Initialization: 
 
 - world: initial world 
 - memory: 
@@ -15,7 +16,9 @@ MIDCA Initialization
 - metaModules: Dict --> 
 - verbose: 
 
-Cognitive Phases: 
+---
+
+## Cognitive Phases: 
 
 1. Perceive (perceive.py)
 2. Interpret 
@@ -27,12 +30,15 @@ Cognitive Phases:
 5. Plan (planning.py)
 6. Act (act.py)
 
-MetaCognitive Phases: 
+---
+
+## MetaCognitive Phases: 
 
 ---
 
+## Details of important classes: 
 
-Pyhop Planner (pyhop.py): 
+1. Pyhop Planner (pyhop.py): 
 - State 
 - Goal 
 - tasks 
@@ -41,8 +47,10 @@ Pyhop Planner (pyhop.py):
 - declare_methods 
 - seek_plan
 
-In util.py: 
-- state from world: 
-- tasks from goal: 
-  - need to add other predicates
+---
+
+2. In util.py: 
+    - state from world: 
+    - tasks from goal: 
+        - need to add other predicates
 
