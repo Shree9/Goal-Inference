@@ -1,0 +1,55 @@
+BLOCK(A)
+BLOCK(B)
+BLOCK(C)
+BLOCK(D)
+BLOCK(E)
+BLOCK(F)
+BLOCK(G)
+BLOCK(table)
+
+COLOR(RED)
+COLOR(GREEN)
+COLOR(BLUE)
+COLOR(YELLOW)
+COLOR(PURPLE)
+COLOR(BLACK)
+COLOR(WHITE)
+
+
+block(A)
+block(B)
+block(C)
+block(D)
+block(E)
+
+triangle(F)
+triangle(G)
+
+table(table)
+
+color(A, RED)
+color(B, BLUE)
+color(C, GREEN)
+color(D, YELLOW)
+color(E, PURPLE)
+color(F, BLACK)
+color(G, WHITE)
+
+on(G, A)
+
+on-table(A)
+on-table(B)
+on-table(C)
+on-table(D)
+on-table(E)
+on-table(F)
+
+
+clear(B)
+clear(C)
+clear(D)
+clear(E)
+clear(F)
+
+
+arm-empty()
